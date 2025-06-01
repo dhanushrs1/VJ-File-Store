@@ -36,7 +36,7 @@ CDB_NAME = environ.get("CDB_NAME", "clonetechvj")
 
 # Database Information
 DB_URI = environ.get("DB_URI", "mongodb+srv://FILESTORECLONE:FILESTORECLONE@dynamic.lzu6mpy.mongodb.net/?retryWrites=true&w=majority&appName=Dynamic")
-DB_NAME = environ.get("DB_NAME", "DHANUSH")
+DB_NAME = environ.get("DB_NAME", "FILESTORECLONE")
 
 # Auto Delete Information
 AUTO_DELETE_MODE = bool(environ.get('AUTO_DELETE_MODE', True)) # Set True or False
